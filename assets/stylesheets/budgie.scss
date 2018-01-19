@@ -17,16 +17,28 @@ html {
 
 .game-view h1 {
   font-family: Helvetica;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bolder;
   margin: auto;
   text-align: center;
 }
 
-.game-view canvas {
+.canvas-elements {
+  height: 350px;
+  width: 500px;
+  position: repxlative;
   border: 2px solid black;
   margin: 20px;
-  background: white;
+}
+
+#budgie-game {
+  position: absolute;
+  z-index: 2;
+}
+
+#budgie-bkgd1 {
+  position: absolute;
+  z-index: 1;
 }
 
 .game-view p {

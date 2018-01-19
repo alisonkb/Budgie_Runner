@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <!-- <script data-main="lib/budgie-runner" src="lib/require.js"></script> -->
 
-    <script type="text/javascript" scr='./lib/game.js'></script>
+    <script type="text/javascript" src='./lib/far_background.js'></script>
+    <script type="text/javascript" src='./lib/game.js'></script>
     <script type="text/javascript" src='./lib/budgie-runner.js'>  </script>
 
     <link rel="stylesheet" href="./assets/stylesheets/application.scss">
@@ -14,7 +15,10 @@
   <body>
     <div class='game-view'>
       <h1>BUDGIE RUNNER</h1>
-      <canvas id='budgie-game' width='500' height='350'></canvas>
+      <div class='canvas-elements'>
+        <canvas id='budgie-game' width='500' height='350'></canvas>
+        <canvas id='budgie-bkgd1' width='500' height='350'></canvas>
+      </div>
       <p>Guide Budgie the dog as he runs through the streets of Brooklyn in pursuit of a squrriel!</p>
       <p>Press SPACEBAR to jump over obstacles that stand in your way.</p>
 
@@ -27,5 +31,6 @@
         </div>
       </div>
     </div>
+
   </body>
 </html>
