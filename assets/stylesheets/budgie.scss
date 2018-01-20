@@ -26,12 +26,18 @@ html {
 .canvas-elements {
   height: 350px;
   width: 500px;
-  position: repxlative;
+  background-color: #675747;
+  position: relative;
   border: 2px solid black;
   margin: 20px;
 }
 
 #budgie-game {
+  position: absolute;
+  z-index: 3;
+}
+
+#budgie-bkgd2 {
   position: absolute;
   z-index: 2;
 }
