@@ -60,12 +60,18 @@ html {
 
 }
 
+
 .meet-me-imgs {
   margin: auto;
-    text-align: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+
 }
 
 .meet-the-maker img {
   height: 25px;
   margin: auto;
+  padding: 10px;
 }
