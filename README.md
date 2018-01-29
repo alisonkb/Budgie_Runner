@@ -1,20 +1,21 @@
-# Budgie Runner
+# Go, Budgie, Go!
 
-## Descrition 
-Budgie Runner is a basic runner game with obstacles where a small Brooklyn dog, in pursuit of a squirrel, runs through a city and has to jump over obstacles. Pressing spacebar will allow Budgie to jump. 
+## Description 
+Go, Budgie, Go! is a classic endless runner game featuring a small dog from Brooklyn as he runs through a city in pursuit of a squirrel, jumping over obstacles along the way. Pressing spacebar will allow Budgie to jump, and your score will increase for the longer you last!
 
 ## Technologies 
-Budgie Runner will be created with vanilla JS and HTML canvas. 
+Budgie Runner was created with vanilla JS and HTML canvas. 
+The background and sprites have been colorized and altered in Adobe Photoshop to best represent the characters portrayed. 
 
-## Wireframes 
-![wireframes](https://i.imgur.com/PMLvS75.png)
+## Reviews 
+:star::star::star::star::star:
+"I ran Budgie into a hot dog cart but he likes hot dogs so I think it's fine."
+-Creator's mother. 
 
-## Timeline
-#### Day One: 
-Initial set up of canvas and creation of basic game logic. 
+:star:
+"Very unrealistic game. I've met Budgie in person and he just lays there."
+-Matt Marchese, professional chef.
 
-#### Day Two: 
-Implement class interaction.
-
-#### Day Three: 
-Create obstacles and debug.
+:star::star::star::star:
+"Can I buy 12 copies?"
+-Creator's friends who don't understand that it's free to play.
